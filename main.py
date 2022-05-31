@@ -2,7 +2,6 @@ import sys
 
 from PyQt5.QtWidgets import QApplication
 from src.Controller.Tela_principal import Aplicacao_tela_principal
-from src.Controller.Tela_baixar_audio import AplicacaoTelaBaixarAudio
 # pyuic5 tela_principal.ui -o tela_principal.py
 # pip install python-pptx
 # pip install PyQt5

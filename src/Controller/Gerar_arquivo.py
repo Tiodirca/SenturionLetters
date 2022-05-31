@@ -26,11 +26,11 @@ def gerar_slides(textos, titulo, tipo_modelo, caminho_salvar):
             global estrofe_slide, estrofe_slide_secundaria
             if 'modelo_geral' in tipo_modelo:
                 # passando o caminho do modelo que sera utilizado para gerar os slides
-                caminho = "src/modelos_slides/modelo_geral.pptx"
+                caminho = "modelos_slides/modelo_geral.pptx"
                 prs = Presentation(caminho)
             else:
                 # passando o caminho do modelo que sera utilizado para gerar os slides
-                caminho = "src/modelos_slides/modelo_geracao_fire.pptx"
+                caminho = "modelos_slides/modelo_geracao_fire.pptx"
                 prs = Presentation(caminho)
 
             for estrofe in textos:
